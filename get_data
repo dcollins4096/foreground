@@ -1,0 +1,131 @@
+#!/bin/sh
+#
+# NASA/IPAC Infrared Science Archive
+# Planck Data Release 2: All-Sky Maps
+#
+# Edit this script to select which files to download
+#
+
+#-----------------------------------
+# Primary maps
+#-----------------------------------
+
+# Full mission maps
+
+# Full
+#curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_full.fits
+#curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_full.fits
+#curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_full.fits
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_full.fits &
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_full.fits &
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_full.fits &
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_full.fits &
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_full.fits &
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_full.fits &
+curl -f -O https://irsa.ipac.caltech.edu:443/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_full.fits &
+
+# Nominal mission maps
+
+# Nominal
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_nominal.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_nominal.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_nominal.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_nominal.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_nominal.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_nominal.fits
+
+# Multi-survey maps
+
+# Surveys 1-3-5-6-7-8
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-1-3-5-6-7-8.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-1-3-5-6-7-8.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-1-3-5-6-7-8.fits
+
+# Single-survey maps
+
+# Survey 1
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_survey-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_survey-1.fits
+
+# Survey 2
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_survey-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_survey-2.fits
+
+# Survey 3
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_survey-3.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_survey-3.fits
+
+# Survey 4
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_survey-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_survey-4.fits
+
+# Survey 5
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_100_2048_R2.02_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_143_2048_R2.02_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_353_2048_R2.02_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_survey-5.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_survey-5.fits
+
+# Survey 6
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-6.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-6.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-6.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-6.fits
+
+# Survey 7
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-7.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-7.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_survey-7.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_survey-7.fits
+
+# Survey 8
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_030_1024_R2.01_survey-8.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_044_1024_R2.01_survey-8.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R22_year-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_857_2048_R2.02_year-1.fits
+
+# Year 2
+curl -f -O http://irsa.ipac.caltech.edu/data/Pl.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_1024_R2.01_year-4.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/LFI_SkyMap_070_2048_R2.01_year-4.fits
+
+# Multi-yf -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_217_2048_R2.02_halfmission-1.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-tp://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/maps/HFI_SkyMap_545_2048_R2.02_halfmission-2.fits
+curl -f -O http://irsa.ipac.caltech.edu/data/Planck/release_2/all-sky-maps/ma
